@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+.container {
+    margin: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.team {
+    background: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.score {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.controls button {
+    background: green;
+}
+
+.controls button:nth-child(2) {
+    background: red;
+}
+
+.controls button:nth-child(3) {
+    background: orange;
+}
